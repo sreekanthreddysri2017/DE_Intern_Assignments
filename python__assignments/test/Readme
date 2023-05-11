@@ -1,0 +1,42 @@
+This directory includes the test cases for the assignments done under python.
+Each test cases includes,
+    - standard input i/o
+    - Standard output o/p
+    - Expected output
+
+Assignment_1
+lists
+Assignment_2
+find the percentages
+Assignment_3
+Find the runner up score
+Assignments_4
+Mutations
+Assignments_5
+merge the tools
+Assignment_6
+Text alignment
+Assignment_7
+string formatting
+Assignment_8:
+calendar module
+Assignment_9:
+collected,namedtuple
+Assignment_10:
+Time-delta
+Assignment_11:
+Floor, ceil and rint
+Assignment_12:
+Min and Max
+Assignment_13:
+Linear algebra
+Assignment_14:
+no-idea problem
+Assignment_15:
+word order
+Assignment_16:
+piling up
+Assignment_17:
+iterables and iterators
+Assignment_18:
+validate list of email addresses

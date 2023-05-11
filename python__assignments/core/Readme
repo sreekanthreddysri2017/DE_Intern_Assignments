@@ -1,0 +1,427 @@
+Assignment_1
+lists
+steps:
+The first line contains an integer, denoting the number of commands.
+insert i e-inserts value e at index i
+print-print list
+remove e-removes e from the list
+append e-adds e to the list
+sort-sorted the list
+pop- remove element at the end
+reverse-reverse the list
+print-prints the list
+
+Input Format:
+The first line contains an integer,n , denoting the number of commands.
+Each line i of the n subsequent lines contains one of the commands described above.
+
+Constraints:
+The elements added to the list must be integers.
+
+Output Format:
+For each command of type print, print the list on a new line.
+
+Assignment_2
+Finding the percentage
+
+For a list of students. Print the average of the marks array for the
+student name provided, showing 2 places after the decimal.
+
+Input Format:
+
+The first line contains the integer , the number of students' records. The next
+lines contain the names and marks obtained by a student, each value separated by a space. The final
+line contains query_name, the name of a student to query.
+
+Output Format:
+
+Print one line: The average of the marks obtained by the particular student correct to 2 decimal
+places.
+
+Assignment_3:
+
+Finding runner up score
+
+
+Given the participants' score sheet for your University Sports Day, you are required
+to find the runner-up score. You are given n scores. Store them in a list and find the score of the
+runner-up.
+
+Input Format:
+
+The first line contains n. The second line contains an array A[] of n integers each separated
+by a space.
+
+Output Format:
+Print the runner-up score.
+
+Assignment_4:
+Mutations:
+
+We have seen that lists are mutable (they can be changed), and tuples are immutable
+(they cannot be changed).
+Let's try to understand this with an example.
+You are given an immutable string, and you want to make changes to it.
+
+
+Task
+Read a given string, change the character at a given index and then print the modified string.
+
+Input:
+The first line contains a string,string .
+The next line contains an integer position, the index location and a string character, separated
+by a space.
+
+output:
+print the altered string
+
+Assignment_5:
+
+Merge the tools:
+Complete the merge_the_tools function in the editor below.
+
+merge_the_tools has the following parameters:
+
+string s: the string to analyze
+int k: the size of substrings to analyze
+
+Prints
+
+Print each subsequence on a new line. There will be n/k of them. No return value is expected.
+
+Assignment_6:
+Text alignment:
+In Python, a string of text can be aligned left, right and center
+
+.ljust(width)
+
+This method returns a left aligned string of length width.
+.center(width)
+
+This method returns a centered string of length width.
+.center(width)
+
+This method returns a centered string of length width.
+Input Format
+
+A single line containing the thickness value for the logo.
+Output Format
+
+Output the desired logo.
+
+Assignment_7:
+String formatting:
+Given an integer,n , print the following values for each integer i  from 1 to n :
+
+Decimal
+Octal
+Hexadecimal (capitalized)
+Binary
+
+Function Description
+
+Complete the print_formatted function in the editor below.
+
+print_formatted has the following parameters:
+
+int number: the maximum value to print
+
+Prints
+
+The four values must be printed on a single line in the order specified above for each i from
+1 to number .Each value should be space-padded to match the width of the binary value of number and
+the values should be separated by a single space.
+
+Assignment_8
+calendar module:
+The calendar module allows you to output calendars and provides additional useful functions for them.
+
+class calendar.TextCalendar([firstweekday])
+
+This class can be used to generate plain text calendars.
+
+Input Format:
+
+A single line of input containing the space separated month, day and year, respectively,
+in MM DD YYYY   format.
+
+Output Format:
+
+Output the correct day in capital letters.
+
+
+Assignment_9:
+collections.namedtuple()
+Basically, named tuples are easy to create, lightweight object types.
+They turn tuples into convenient containers for simple tasks.
+With named tuples, you don’t have to use integer indices for accessing members of a tuple.
+
+Input Format:
+
+The first line contains an integer N, the total number of students.
+The second line contains the names of the columns in any order.
+The next N lines contains the marks, id's,  name and class, under their respective column names.
+
+Output Format:
+
+Print the average marks of the list corrected to 2 decimal places.
+
+Assignment_10:
+Time delta:
+When users post an update on social media,such as a URL, image, status update etc., other users in
+their network are able to view this new post on their news feed. Users can also see exactly when
+the post was published, i.e, how many hours, minutes or seconds ago.Since sometimes posts are
+published and viewed in different time zones, this can be confusing. You are given two
+timestamps of one such post that a user can see on his newsfeed in the following
+format:
+
+Day dd Mon yyyy hh:mm:ss +xxxx
+
+Here +xxxx represents the time zone. Your task is to print the absolute difference (in seconds)
+between them.
+
+Input Format:
+
+The first line contains T, the number of testcases.
+Each testcase contains  2 lines, representing time t1 and time t2.
+
+Output Format:
+When users post an update on social media,such as a URL, image, status update etc., other users in
+their network are able to view this new post on their news feed. Users can also see exactly when
+the post was published, i.e, how many hours, minutes or seconds ago.
+
+Since sometimes posts are published and viewed in different time zones, this can be confusing.
+You are given two timestamps of one such post that a user can see on his newsfeed in the
+following format:
+
+Day dd Mon yyyy hh:mm:ss +xxxx
+Here +xxxx represents the time zone. Your task is to print the absolute difference (in seconds)
+between them.
+
+Input Format:
+
+The first line contains , the number of testcases.
+Each testcase contains  lines, representing time  and time .
+
+Constraints:
+
+Input contains only valid timestamps
+.
+Output Format:
+
+Print the absolute difference(t1-t2)  in seconds.
+
+Assignment_11:
+Floor, ceil and rint:
+floor:
+The tool floor returns the floor of the input element-wise.
+The floor of x is the largest integer i  where i<=x.
+
+ceil:
+The tool ceil returns the ceiling of the input element-wise.
+The ceiling of x is the smallest integer i where i>=x.
+
+rint:
+The rint tool rounds to the nearest integer of input element-wise.
+
+Input Format:
+
+A single line of input containing the space separated elements of array A.
+
+Output Format:
+
+On the first line, print the floor of A.
+On the second line, print the  ceil of A.
+On the third line, print the rint of A.
+
+Assignment_12:
+Min and Max:
+
+
+min:
+
+The tool min returns the minimum value along a given axis.
+By default, the axis value is None. Therefore, it finds the minimum over all the
+dimensions of the input array.
+
+Max:
+
+The tool max returns the maximum value along a given axis.
+By default, the axis value is None. Therefore, it finds the maximum over all the dimensions of
+the input array.
+
+Task:
+
+You are given a 2-D array with dimensions NXM.
+Your task is to perform the min function over axis i and then find the max of that.
+
+Input Format:
+
+The first line of input contains the space separated values of N and M .
+The next N lines contains M space separated integers.
+
+Output Format:
+
+Compute the min along axis 1 and then print the max of that result.
+
+Assignment_13:
+Linear algebra:
+
+The NumPy module also comes with a number of built-in routines for linear algebra calculations.
+These can be found in the sub-module linalg.
+
+linalg.det:
+
+The linalg.det tool computes the determinant of an array.
+
+linalg.eig:
+
+The linalg.eig computes the eigenvalues and right eigenvectors of a square array.
+
+linalg.inv:
+
+The linalg.inv tool computes the (multiplicative) inverse of a matrix.
+Task:
+
+You are given a square matrix A with dimensions NXN. Your task is to find the determinant.
+Note: Round the answer to 2 places after the decimal.
+
+Input Format:
+
+The first line contains the integer N.
+The next N lines contains the N space separated elements of array A .
+
+Output Format:
+
+Print the determinant of A.
+
+Assignment_14:
+No idea problem:
+
+There is an array of n integers. There are also 2 disjoint sets, A and B, each containing m integers.
+You like all the integers in set A and dislike all the integers in set B. Your initial happiness is 0.
+For each i integer in the array, if i available in A, you add 1 to your happiness. If ,
+i available in B you add -1 to your happiness.Otherwise, your happiness does not change.
+Output your final happiness at the end.
+
+Note: Since A and B are sets, they have no repeated elements. However, the array might contain
+duplicate elements.
+
+Input Format:
+
+The first line contains integers n and m separated by a space.
+The second line contains n integers, the elements of the array.
+The third and fourth lines contain m integers, A and B, respectively.
+
+Output Format:
+
+Output a single integer, your total happiness.
+
+Explanation:
+
+You gain 1 unit of happiness for elements 3 and 1 in set A . You lose 1 unit for 5 in set B.
+The element 7 in set B does not exist in the array so it is not included in the calculation.
+
+Hence, the total happiness is 2-1=1.
+
+Assignment_15:
+word order:
+
+You are given n words. Some words may repeat. For each word, output its number of occurrences.
+The output order should correspond with the input order of appearance of the word. See the
+sample input/output for clarification.
+
+Note: Each input line ends with a "\n" character.
+
+Input Format:
+
+The first line contains the integer,n .
+The next n lines each contain a word.
+
+Output Format:
+
+Output 2 lines.
+On the first line, output the number of distinct words from the input.
+On the second line, output the number of occurrences for each distinct word according to their
+appearance in the input.
+
+Explanation:
+
+There are  distinct words. Here, "bcdef" appears twice in the input at the first and last positions.
+The other words appear once each. The order of the first appearances are "bcdef", "abcdefg" and
+"bcde" which corresponds to the output.
+
+Assignment_16:
+piling up:
+
+There is a horizontal row of n cubes. The length of each cube is given. You need to create a new
+vertical pile of cubes. The new pile should follow these directions: if cube[i] is on top of cube[j]
+then side length[j]>=side length[i].When stacking the cubes, you can only pick up either the leftmost
+or the rightmost cube each time.Print Yes if it is possible to stack the cubes. Otherwise, print No.
+
+Input Format:
+
+The first line contains a single integer T, the number of test cases.
+For each test case, there are 2 lines.
+The first line of each test case contains n, the number of cubes.
+The second line contains n space separated integers, denoting the sideLengths of each cube in
+that order.
+
+Output:
+For each test case, output a single line containing either Yes or No.
+
+Explanation:
+
+In the first test case, pick in this order: left -4 , right - 4, left -3 , right -3 , left - 2,
+right - 1.In the second test case, no order gives an appropriate arrangement of vertical cubes.3
+will always come after either 1 or 2.
+
+Assignment_17:
+iterables and iterators:
+
+The itertools module standardizes a core set of fast, memory efficient tools that are useful by
+themselves or in combination. Together, they form an iterator algebra making it possible to
+construct specialized tools succinctly and efficiently in pure Python.
+
+Input Format:
+
+The input consists of three lines. The first line contains the integer N, denoting the length of
+the list. The next line consists of N space-separated lowercase English letters, denoting the
+elements of the list.
+The third and the last line of input contains the integer K, denoting the number of indices to
+be selected.
+
+Output Format:
+
+Output a single line consisting of the probability that at least one of the K indices selected
+contains the letter:'a'.
+
+Note: The answer must be correct up to 3 decimal places.
+
+Assignment_18:
+validate list of email addresses:
+
+You are given an integer N followed by N email addresses. Your task is to print a list containing
+only valid email addresses in lexicographical order.
+
+
+Valid email addresses must follow these rules:
+
+It must have the username@websitename.extension format type.
+The username can only contain letters, digits, dashes and underscores [a-z],[A-Z],[0-9],[_-] .
+The website name can only have letters and digits[a-z],[A-Z],[0-9] .
+The extension can only contain letters [a-z],[A-Z] .
+The maximum length of the extension is 3.
+
+Constraints:
+
+Each line is a non-empty string
+
+Input Format:
+
+The first line of input is the integer N, the number of email addresses.
+N lines follow, each containing a string.
+
+output Format:
+
+It returns the valid email addresses
